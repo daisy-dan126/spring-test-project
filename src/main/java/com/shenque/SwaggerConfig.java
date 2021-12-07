@@ -20,7 +20,7 @@ public class SwaggerConfig {
                 // 指定构建api文档的详细信息的方法：apiInfo()
                 .apiInfo(apiInfo())
                 .select()
-                // 指定要生成api接口的包路径
+                // 指定要生成api接 口的包路径
                 .apis(RequestHandlerSelectors.basePackage("com.shenque.controller"))
                 //使用了 @ApiOperation 注解的方法生成api接口文档
                 .apis(RequestHandlerSelectors.withMethodAnnotation(ApiOperation.class))
