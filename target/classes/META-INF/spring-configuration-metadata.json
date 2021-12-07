@@ -1,0 +1,52 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.shenque.model.Person",
+      "sourceType": "com.shenque.model.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.shenque.model.Person"
+    },
+    {
+      "name": "person.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.shenque.model.Person"
+    },
+    {
+      "name": "person.boss",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.shenque.model.Person"
+    },
+    {
+      "name": "person.dog",
+      "type": "com.shenque.model.Dog",
+      "sourceType": "com.shenque.model.Person"
+    },
+    {
+      "name": "person.dog.name",
+      "type": "java.lang.String",
+      "description": "Description for person.dog.name."
+    },
+    {
+      "name": "person.last-name",
+      "type": "java.lang.String",
+      "sourceType": "com.shenque.model.Person"
+    },
+    {
+      "name": "person.lists",
+      "type": "java.util.List<java.lang.Object>",
+      "sourceType": "com.shenque.model.Person"
+    },
+    {
+      "name": "person.maps",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.shenque.model.Person"
+    }
+  ],
+  "hints": []
+}
