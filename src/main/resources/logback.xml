@@ -14,7 +14,7 @@
               value="%d{yyyy-MM-dd HH:mm:ss.SSS} %5p ${PID:- } --- [%X{tid}-%X{userId}] [%t] %-40.40logger{39} : %m%n%wex"/>
 
 
-    <property name="LOG_HOME" value="/datalog/spring-test-project"/>
+    <property name="LOG_HOME" value="/tmp/spring-test-project"/>
     <property name="APP_NAME" value="spring-test-project"/>
     <property name="LOG_FILE" value="${LOG_HOME}/${APP_NAME}"/>
     <property name="HISTORY_LOG_DIR" value="${LOG_HOME}/${APP_NAME}"/>
